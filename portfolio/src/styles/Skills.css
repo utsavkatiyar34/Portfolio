@@ -1,0 +1,54 @@
+.skills-main{
+        width: 90%;
+        padding-top: 2vw;
+        margin-left: auto;
+        margin-right: auto;
+}
+.skills-main>h2{
+        font-family: Arial, sans-serif;
+        text-align: center;
+        color: #55198b;
+        opacity: 90%;
+        font-size: 3.5vw;
+        font-weight: 700;
+}
+.skills-gif{
+        width: 40vw;
+}
+.skills-divs{
+        display: flex;
+        overflow: auto;
+        flex-direction: row;
+        
+}
+.skills-divs>div>p{
+        font-family: Arial, sans-serif;
+        font-size: 2vw;
+        color:gray;
+}
+
+.skillsDiv-parent{
+        width:50vw;
+        display: grid;
+        overflow: auto;
+        grid-template-columns: repeat(6, 1fr);
+       
+}
+.skills-pic{
+        width:100%;
+        aspect-ratio: 1/1;
+        
+}
+.skillsDiv-parent>div{
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+        cursor: pointer;
+
+}
+.skillsDiv-parent>div>p{
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 1.2vw;
+        color:gray;
+}

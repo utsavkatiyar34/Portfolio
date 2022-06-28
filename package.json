@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-image-webp": "^0.8.0",
+    "social-media-icons-react": "^1.1.10"
+  }
+}
