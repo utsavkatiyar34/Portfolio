@@ -13,7 +13,9 @@
         font-weight: 700;
 }
 .skills-gif{
-        width: 40vw;
+        width:50vw;
+        margin-top: auto;
+        margin-bottom: auto;
 }
 .skills-divs{
         display: flex;
@@ -21,22 +23,25 @@
         flex-direction: row;
         
 }
-.skills-divs>div>p{
+.skills-main>p{
         font-family: Arial, sans-serif;
         font-size: 2vw;
         color:gray;
+        text-align: center;
 }
 
 .skillsDiv-parent{
         width:50vw;
         display: grid;
         overflow: auto;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(4, 1fr);
        
 }
 .skills-pic{
-        width:100%;
-        aspect-ratio: 1/1;
+        width:8vw;
+        height: 8vw;
+        margin-left: auto;
+        margin-right: auto;
         
 }
 .skillsDiv-parent>div{
@@ -44,6 +49,8 @@
         overflow: auto;
         flex-direction: column;
         cursor: pointer;
+        height: 12vw;
+        width:10vw;
 
 }
 .skillsDiv-parent>div>p{

@@ -1,0 +1,21 @@
+.projects-maindiv{
+        width: 90%;
+        padding-top: 2vw;
+        margin-left: auto;
+        margin-right: auto;
+}
+.projects-maindiv>h2{
+        font-family: Arial, sans-serif;
+        text-align: center;
+        color: #55198b;
+        opacity: 90%;
+        font-size: 3.5vw;
+        font-weight: 700;
+}
+.projects-maindiv-mainsection{
+        display: flex;
+        overflow: auto;
+        flex-direction: row;
+        width:100%;
+        border: 1px solid purple;
+}
