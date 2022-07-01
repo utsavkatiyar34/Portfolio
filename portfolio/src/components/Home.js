@@ -5,6 +5,7 @@ import { isWebpSupported } from "react-image-webp/dist/utils";
 import Projects from "./Projects";
 import ReactDOM from "react-dom";
 import { SocialMediaIconsReact } from "social-media-icons-react";
+import Education from "./Education";
 export default function Home() {
   return (
     <div className="home-body">
@@ -75,8 +76,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="padder"></div>
       <Skills />
       <Projects/>
+      <Education/>
     </div>
   );
 }

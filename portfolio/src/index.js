@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Project from './components/Projects';
 import Skills from './components/Skills';
-import WorkExperience from './components/WorkExperience';
+import Education from './components/Education';
 import {BrowserRouter} from "react-router-dom";
 import{Routes}from "react-router-dom";
 import{Route}from"react-router-dom";
@@ -24,7 +24,7 @@ root.render(
       </Route>
       <Route exact path="/projects" element={<Project/>}>
       </Route>
-      <Route exact path="/work-experience" element={<WorkExperience/>}>
+      <Route exact path="/education" element={<Education/>}>
       </Route>
       <Route exact path="/contact" element={<ContactMe/>}>
       </Route>

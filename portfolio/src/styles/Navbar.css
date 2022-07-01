@@ -1,12 +1,17 @@
 .navbar{
         display:flex;
         flex-direction: row;
-        overflow-x: auto;
-        overflow-y: auto;
+        /* overflow-x: auto;
+        overflow-y: auto; */
         padding-left:1.5vw;
         padding-right:1.5vw;
         max-height: 15vw;
-        border-bottom: 3px solid purple;
+        border-bottom: 2px solid purple;
+        border-top: 2px solid purple;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background-color: white;
 }
 .logonav{
         font-family: Copperplate, Papyrus, fantasy;

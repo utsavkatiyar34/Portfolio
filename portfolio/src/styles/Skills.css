@@ -1,6 +1,6 @@
 .skills-main{
         width: 90%;
-        padding-top: 2vw;
+        padding-top: 0;
         margin-left: auto;
         margin-right: auto;
 }
@@ -13,9 +13,12 @@
         font-weight: 700;
 }
 .skills-gif{
-        width:50vw;
+        width:40vw;
         margin-top: auto;
         margin-bottom: auto;
+}
+.skills-gif:hover{
+        box-shadow: 0 5px 6px 0 rgb(0 0 0 / 20%), 0 .5em 2em 0 rgb(0 0 0 / 19%) !important;
 }
 .skills-divs{
         display: flex;
@@ -31,18 +34,22 @@
 }
 
 .skillsDiv-parent{
-        width:50vw;
+        width:47vw;
         display: grid;
         overflow: auto;
         grid-template-columns: repeat(4, 1fr);
-       
+        margin-right: 0px;
+        margin-left: auto;
+        
 }
 .skills-pic{
         width:8vw;
         height: 8vw;
         margin-left: auto;
         margin-right: auto;
-        
+}
+.skills-pic:hover{
+        box-shadow: 0 5px 6px 0 rgb(0 0 0 / 20%), 0 .5em 2em 0 rgb(0 0 0 / 19%) !important;
 }
 .skillsDiv-parent>div{
         display: flex;
@@ -59,3 +66,11 @@
         font-size: 1.2vw;
         color:gray;
 }
+.padder{
+        height: 2px;
+        width:70%;
+        background-color: #55198b;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vw;
+      }
