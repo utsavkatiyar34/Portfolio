@@ -71,7 +71,6 @@ export default function Skills() {
           </div>
         </div>
       </div>
-      <div className="padder"></div>
     </div>
   );
 }

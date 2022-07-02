@@ -9,7 +9,7 @@
         text-align: center;
         color: #55198b;
         opacity: 90%;
-        font-size: 3.5vw;
+        font-size:3.5vw;
         font-weight: 700;
 }
 .projects-maindiv-mainsection{
@@ -95,10 +95,41 @@
 .projects-information>ul{
         margin-top: 2px;
         margin-bottom:2px;
+        margin-left: 1vw;
+        padding-left: 1vw;
 }
 .projects-information>ul>li{
         font-size:1.5vw;
         color: #868e96;
+        margin-left: 1vw;
+        padding-left: 0;
+}
+@media only screen and (max-width: 425px) {
+        .projects-information>h3{
+                font-size:2vw;
+                color: #55198b;
+               margin-top: 2px;
+                margin-bottom: 2px;
+                opacity: 90%;
+        }
+        .projects-information>p{
+                font-size:2vw;
+                color: #868e96;
+               margin-top: 2px;
+                margin-bottom: 2px;
+        }
+        .projects-information>ul{
+                margin-top: 2px;
+                margin-bottom:2px;
+                margin-left: 1vw;
+                padding-left: 1vw;
+        }
+        .projects-information>ul>li{
+                font-size:2vw;
+                color: #868e96;
+                margin-left: 1vw;
+                padding-left: 0;
+        }
 }
 .padder{
         height: 2px;

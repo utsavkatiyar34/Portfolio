@@ -31,7 +31,6 @@ export default function Education() {
          <h3>XII (Physics, Chemistry, Mathematics)</h3> 
         </div>
       </div>
-      <div className="padder"></div>
     </div>
   )
 }
