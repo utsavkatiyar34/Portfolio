@@ -22,69 +22,76 @@ export default function Home() {
             some other useful libraries and frameworks.
           </p>
           <div className="home-social">
-          <div>
-          <SocialMediaIconsReact
-            borderColor="black"
-            icon="github"
-            iconColor="rgba(255,255,255,1)"
-            backgroundColor="black"
-            url="https://github.com/utsavkatiyar34"
-            target="blank"
-            size="3.25vw"
-            roundness="50%"
-          />
-        </div>
-        <div>
-          <SocialMediaIconsReact
-            borderColor="blue"
-            icon="linkedin"
-            iconColor="rgba(255,255,255,1)"
-            backgroundColor="blue"
-            url="https://www.linkedin.com/in/utsav-katiyar-27635417a/"
-            target="blank"
-            size="3.25vw"
-            roundness="50%"
-          />
-        </div>
-        <div>
-          <SocialMediaIconsReact
-            borderColor="blue"
-            icon="facebook"
-            iconColor="rgba(255,255,255,1)"
-            backgroundColor="blue"
-            url="https://www.facebook.com/utsav.katiyar.39/"
-            target="blank"
-            size="3.25vw"
-            roundness="50%"
-          />
-        </div>
-        <div>
-          <SocialMediaIconsReact
-            borderColor="red"
-            icon="mail"
-            iconColor="rgba(255,255,255,1)"
-            backgroundColor="red"
-            url="mailto:utsavkatiyar34@gmail.com"
-            size="3.25vw"
-            roundness="50%"
-          />
-        </div>
-        <div>
-          <SocialMediaIconsReact
-            borderColor="blue"
-            icon="twitter"
-            iconColor="rgba(255,255,255,1)"
-            backgroundColor="blue"
-            url="https://twitter.com/utsav_katiyar"
-            target="blank"
-            size="3.25vw"
-            roundness="50%"
-          />
-        </div>
+            <div>
+              <SocialMediaIconsReact
+                borderColor="black"
+                icon="github"
+                iconColor="rgba(255,255,255,1)"
+                backgroundColor="black"
+                url="https://github.com/utsavkatiyar34"
+                target="blank"
+                size="3.25vw"
+                roundness="50%"
+              />
+            </div>
+            <div>
+              <SocialMediaIconsReact
+                borderColor="blue"
+                icon="linkedin"
+                iconColor="rgba(255,255,255,1)"
+                backgroundColor="blue"
+                url="https://www.linkedin.com/in/utsav-katiyar-27635417a/"
+                target="blank"
+                size="3.25vw"
+                roundness="50%"
+              />
+            </div>
+            <div>
+              <SocialMediaIconsReact
+                borderColor="blue"
+                icon="facebook"
+                iconColor="rgba(255,255,255,1)"
+                backgroundColor="blue"
+                url="https://www.facebook.com/utsav.katiyar.39/"
+                target="blank"
+                size="3.25vw"
+                roundness="50%"
+              />
+            </div>
+            <div>
+              <SocialMediaIconsReact
+                borderColor="red"
+                icon="mail"
+                iconColor="rgba(255,255,255,1)"
+                backgroundColor="red"
+                url="mailto:utsavkatiyar34@gmail.com"
+                size="3.25vw"
+                roundness="50%"
+              />
+            </div>
+            <div>
+              <SocialMediaIconsReact
+                borderColor="blue"
+                icon="twitter"
+                iconColor="rgba(255,255,255,1)"
+                backgroundColor="blue"
+                url="https://twitter.com/utsav_katiyar"
+                target="blank"
+                size="3.25vw"
+                roundness="50%"
+              />
+            </div>
           </div>
           <div className="home-buttons">
-            <button className="home-btn12">CONTACT ME</button>
-            <button className="home-btn12">SEE MY RESUME</button>
+            <a href="https://www.linkedin.com/in/utsav-katiyar-27635417a/" target="blank">
+              <button className="home-btn12">CONTACT ME</button>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1vKQS1jeamcg00d9Ha0qX-KQAaL42z788/view?usp=sharing"
+              target="blank"
+            >
+              <button className="home-btn12">SEE MY RESUME</button>
+            </a>
           </div>
         </div>
         <div className="home-intro-image">
@@ -96,13 +103,13 @@ export default function Home() {
       <div className="padder"></div>
       <Skills />
       <div className="padder"></div>
-      <Projects/>
+      <Projects />
       <div className="padder"></div>
-      <Education/>
+      <Education />
       <div className="padder"></div>
-      <Achivements/>
+      <Achivements />
       <div className="padder"></div>
-      <ContactMe/>
+      <ContactMe />
     </div>
   );
 }
