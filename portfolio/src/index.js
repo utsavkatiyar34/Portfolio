@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import { SocialMediaIconsReact } from "social-media-icons-react";
 import Navbar from "../src/components/Navbar";
 import reportWebVitals from "./reportWebVitals";
 import Project from "./components/Projects";

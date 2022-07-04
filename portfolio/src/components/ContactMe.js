@@ -11,7 +11,7 @@ export default function ContactMe() {
       <p>+91-9653023447</p>
       <p>utsavkatiyar34@gmail.com</p>
       <div className="contact-social">
-        <div>
+        <div className="contact-socialmedia">
           <SocialMediaIconsReact
             borderColor="black"
             icon="github"
@@ -23,7 +23,7 @@ export default function ContactMe() {
             roundness="50%"
           />
         </div>
-        <div>
+        <div className="contact-socialmedia">
           <SocialMediaIconsReact
             borderColor="blue"
             icon="linkedin"
@@ -35,7 +35,7 @@ export default function ContactMe() {
             roundness="50%"
           />
         </div>
-        <div>
+        <div className="contact-socialmedia">
           <SocialMediaIconsReact
             borderColor="blue"
             icon="facebook"
@@ -47,7 +47,7 @@ export default function ContactMe() {
             roundness="50%"
           />
         </div>
-        <div>
+        <div className="contact-socialmedia">
           <SocialMediaIconsReact
             borderColor="red"
             icon="mail"
@@ -58,7 +58,7 @@ export default function ContactMe() {
             roundness="50%"
           />
         </div>
-        <div>
+        <div className="contact-socialmedia">
           <SocialMediaIconsReact
             borderColor="blue"
             icon="twitter"

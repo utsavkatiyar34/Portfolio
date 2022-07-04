@@ -22,7 +22,7 @@ export default function Home() {
             some other useful libraries and frameworks.
           </p>
           <div className="home-social">
-            <div>
+            <div className="home-socialmedia">
               <SocialMediaIconsReact
                 borderColor="black"
                 icon="github"
@@ -34,7 +34,7 @@ export default function Home() {
                 roundness="50%"
               />
             </div>
-            <div>
+            <div className="home-socialmedia">
               <SocialMediaIconsReact
                 borderColor="blue"
                 icon="linkedin"
@@ -46,7 +46,7 @@ export default function Home() {
                 roundness="50%"
               />
             </div>
-            <div>
+            <div className="home-socialmedia">
               <SocialMediaIconsReact
                 borderColor="blue"
                 icon="facebook"
@@ -58,7 +58,7 @@ export default function Home() {
                 roundness="50%"
               />
             </div>
-            <div>
+            <div className="home-socialmedia">
               <SocialMediaIconsReact
                 borderColor="red"
                 icon="mail"
@@ -69,7 +69,7 @@ export default function Home() {
                 roundness="50%"
               />
             </div>
-            <div>
+            <div className="home-socialmedia">
               <SocialMediaIconsReact
                 borderColor="blue"
                 icon="twitter"
