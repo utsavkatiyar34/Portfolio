@@ -39,9 +39,20 @@
       flex-direction: row;
       overflow: auto;
       float: right;
-      font-size: 1.5vw;
-      
-      
+      font-size: 1.5vw;    
+}
+@media only screen and (max-width: 768px) {
+        .menu{
+                padding-top:.8vw;
+                padding-bottom: .8vw;
+                margin-right: 0px;
+                margin-left: auto;
+                display:flex;
+                flex-direction: row;
+                overflow: auto;
+                float: right;
+                font-size: 2vw;    
+          }  
 }
 .menu>ul{
         font-family: Arial,sans-serif;
@@ -54,9 +65,7 @@
         margin-top: auto;
         margin-bottom: auto;
         margin-left: auto;
-        margin-right: auto;
-    
-        
+        margin-right: auto;     
 }
 .menulinks{
  padding-top: .5vw;
